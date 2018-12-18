@@ -1,4 +1,4 @@
-$appTitleName = "Cars - Quote / Shop"
+$appTitleName = "placeholder"
 #$appTitleName = "Notepad"
 $initialDay = "1"
 $secondaryDay = "1"
