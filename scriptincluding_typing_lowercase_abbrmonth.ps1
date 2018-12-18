@@ -3,7 +3,7 @@ $abbreviatedMonthPlusOne = (Get-Date).AddMonths(1).ToString('MMM') | out-string
 $lowercaseMonth = $abbreviatedMonthPlusOne.ToLower()
 
 #$appTitlename = "Notepad"
-$appTitlename = "Flight"
+$appTitlename = "placeholder"
 
 Add-Type -AssemblyName System.Windows.Forms
 [void] [System.Reflection.Assembly]::LoadWithPartialName("'Microsoft.VisualBasic")
