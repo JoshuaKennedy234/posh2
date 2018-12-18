@@ -1,4 +1,4 @@
-$procTitle = "izard"
+$procTitle = "placeholder"
 $enter = '~'
 $waitForApp = "10"
 Add-Type -AssemblyName System.Windows.Forms
@@ -10,7 +10,7 @@ $procTitles = get-process | sort mainwindowtitle | select mainwindowtitle
 
 if ($procTitles -match $procTitle)
 {
-    Write-host "Progressing through wizard"
+    Write-host "Progressing through target UI"
     [Microsoft.VisualBasic.Interaction]::AppActivate($procTitle)
     $enter.ToCharArray() | ForEach-Object {[System.Windows.Forms.SendKeys]::SendWait($_)}
 }
