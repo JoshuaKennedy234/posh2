@@ -8,8 +8,8 @@ $appTitlename = "Flight"
 Add-Type -AssemblyName System.Windows.Forms
 [void] [System.Reflection.Assembly]::LoadWithPartialName("'Microsoft.VisualBasic")
 
-write-host "starting powerexpresscardrop"
-write-verbose "starting powerexpresscardrop"
+write-host "starting to type"
+write-verbose "starting to type"
 start-sleep 60
 
 [Microsoft.VisualBasic.Interaction]::AppActivate($appTitlename)
