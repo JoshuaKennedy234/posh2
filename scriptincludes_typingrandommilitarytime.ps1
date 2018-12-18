@@ -3,6 +3,7 @@ $appTitleName = "placeholder"
 $initialDay = "1"
 $secondaryDay = "1"
 $airport = "ord"
+$enter = '~'
 $abbreviatedMonthPlusOne = (Get-Date).AddMonths(1).ToString('MMM') | out-string
 $lowercaseMonth = $abbreviatedMonthPlusOne.ToLower()
 $timestampPickupHH = Get-Random -InputObject "09","10","11","12" | Out-String
